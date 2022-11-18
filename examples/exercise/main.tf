@@ -8,7 +8,7 @@
 *
 *  1. Modify `config_path` variable to set path to configuration files. Defaults for `./input-json`;
 *  2. Run `terraform apply` to update DNS records for local DNS server;
-*  3. Test DNS server by running `nslookup finance.example.com 127.0.0.1`. All subdomains from `./input-json` should work.
+*  3. Test DNS server by running `nslookup <subdomain>.example.com 127.0.0.1` for all subdomains in `./input-json`.
 *
 */
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
