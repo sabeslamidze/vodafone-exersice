@@ -1,26 +1,24 @@
 # Terraform Coding Exercise
 
 Please read the [instructions](./INSTRUCTIONS.md) file.
+
 <!-- BEGIN_TF_DOCS -->
 # Terraform
 
-Reusable TF module to setup dns\_a\_record\_set resources.
+Reusable TF module to setup DNS resources.
 
 ## Usage
-Internal use only.
+Please follow an [example](./examples/exercise/README.md).
 
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.5 |
-| <a name="requirement_dns"></a> [dns](#requirement\_dns) | >= 3.2.0 |
+No requirements.
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_dns"></a> [dns](#provider\_dns) | >= 3.2.0 |
+| <a name="provider_dns"></a> [dns](#provider\_dns) | 3.2.3 |
 
 ## Modules
 
@@ -43,5 +41,8 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_dns_a_records_ip_addresses"></a> [dns\_a\_records\_ip\_addresses](#output\_dns\_a\_records\_ip\_addresses) | Configured IP addresses. |
+| <a name="output_dns_a_records_zone"></a> [dns\_a\_records\_zone](#output\_dns\_a\_records\_zone) | Configured DNS zone. |
 <!-- END_TF_DOCS -->

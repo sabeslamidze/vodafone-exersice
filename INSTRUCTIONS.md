@@ -68,7 +68,7 @@ These are the **expected outcomes** you will be presenting during the first half
 
  - [x] List possible enhancements you would love to incorporate to the Terraform module
     - Restructure repo: add moduls folder, add outputs to dns_a_record_set module;
-    - Add cross-platform e2e test instructions;
+    - Add cross-platform (MacOS) test instructions;
     - Add Terraform tests to check created resources;
     - Store configuration in S3 bucket (enable versioning).
 
